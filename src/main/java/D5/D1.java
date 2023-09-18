@@ -21,7 +21,6 @@ public class D1 {
 //            System.out.println(stringTokenizer.nextToken());
                 String sentence = "Hello, how are you?";
                 int wordCount = sentence.split(" ").length;
-                int
                 System.out.println("本句共有 " + wordCount + " 个单词。");
             }
     }
