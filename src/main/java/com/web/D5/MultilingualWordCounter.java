@@ -1,4 +1,4 @@
-package D5;
+package com.web.D5;
 
 import java.text.BreakIterator;
 import java.util.Locale;
