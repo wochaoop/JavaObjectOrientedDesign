@@ -1,9 +1,9 @@
-package D5;
+package com.web.D5;
 
 import java.text.BreakIterator;
 import java.util.Locale;
 
-public class MultilingualWordCounter {
+public class  MultilingualWordCounter {
     private final String text;
 
     public MultilingualWordCounter(String text) {
@@ -35,6 +35,7 @@ public class MultilingualWordCounter {
         MultilingualWordCounter wordCounter = new MultilingualWordCounter(inputText);
 
         int wordCount = wordCounter.countWords();
+        System.out.println(inputText);
         System.out.println("单词数量为：" + wordCount);
     }
 }

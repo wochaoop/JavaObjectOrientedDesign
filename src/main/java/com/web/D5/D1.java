@@ -1,7 +1,5 @@
-package D5;
+package com.web.D5;
 
-import java.util.Locale;
-import java.util.StringTokenizer;
 // 统计短句中单词的个数
 // 统计短句中不重复单词个数
 public class D1 {
