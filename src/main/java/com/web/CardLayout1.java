@@ -8,6 +8,7 @@ class Mycardlayout extends Frame implements ActionListener{
     Button nextbutton,preButton;//创建控制按钮
     CardLayout cardlayout=new CardLayout();//定义布局对象
     public Mycardlayout(){
+        System.setProperty("file.encoding", "UTF-8");
         this.setSize(300,200);
         this.setVisible(true);
         this.addWindowListener(new WindowAdapter(){//为窗口添加监听器
