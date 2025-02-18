@@ -8,7 +8,7 @@ import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.EnumSet;
 
-public class CopyFolder {
+public class aCopyFolder {
     private static final Logger logger = LogManager.getLogger(CopyFolder.class);
 
     public static void main(String[] args) {
